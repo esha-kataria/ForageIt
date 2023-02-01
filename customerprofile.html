@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/customerprofile.css">
+    <title>Customer Password</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- section1 start -->
+<section class="bgimage">
+    <div class="container bg-color">
+        <nav class="navbar navbar-expand-lg c-white">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-md-auto mb-2 mb-lg-0 ">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light ms-3" aria-current="page" href="index.html">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light ms-3" href="aboutus.html">ABOUT US</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light ms-3" href="findfarm.html">Forage NearBy</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light ms-3" href="login.html">LOGIN</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light ms-3" href="signup.html">SIGNUP</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div><hr>
+
+    <div class="container">
+        <div class="row d-flex justify-content-center fw-bold padding">
+            <div class="">
+                <h1 class="c-white text-center">MY ACCOUNT</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- section1 closed -->
+
+<!-- section2 start -->
+<section>
+    <div class="container">
+      <div class="row py-5 ">
+        <div class="col-md-4 col-lg-4 col-sm-12">
+          <div class="bg-white shadow radius">
+            <div class="row py-5 mt-3">
+              <div>
+                <div class="list-group pt-3" id="list-tab" role="tablist">
+                  <a class="list-group-item list-group-item-action pt-3 pb-3 active" onclick="profile()" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">
+                    <img src="images/profile.png" class="img-fluid">
+                  </a>
+                  <a class="list-group-item list-group-item-action pt-3 pb-3" onclick="history()" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">
+                    <img src="images/orders.png" class="img-fluid ">
+                  </a>
+                  <a class="list-group-item list-group-item-action pt-3 pb-3" onclick="chat()" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">
+                    <img src="images/chat.png" class="img-fluid ">
+                  </a>
+                  <a class="list-group-item list-group-item-action pt-3 pb-3" onclick="chngepass()" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">
+                    <img src="images/chngepass.png" class="img-fluid ">
+                  </a>
+                  <a class="list-group-item list-group-item-action pt-3 pb-3" onclick="logout()" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">
+                    <img src="images/logout.png" class="img-fluid ">
+                  </a>
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="col-md-8 col-lg-8 col-sm-12 pt-sm-5 pt-md-0 pt-lg-0">
+        <div class="bg-white shadow radius">
+          <div class="container height">
+            <div class="row py-5 px-4 mt-3">
+              <div class="">
+                <p class="h6">My Profile</p>
+              </div>
+
+              <div class="pt-4">
+                <img src="images/circle.png" class="img-fluid">
+                <p class="text-secondary-emphasis">Upload Picture (optional)</p>
+              </div>
+
+              <div class="row pt-4">
+                <div class="col-lg-5 col-md-6 col-sm-10">
+                  <div>
+                    <input type="text" class="rounded bg-body-secondary border p-2 ps-3 w-100" placeholder="First Name">
+                  </div>
+                </div>
+                <div class="col-lg-5 col-md-6 col-sm-10">
+                  <div class="mt-sm-3 mt-md-0 mt-lg-0 mt-3">
+                    <input type="text" class="rounded bg-body-secondary border p-2 ps-3 w-100" placeholder="Last Name">
+                  </div>
+                </div>
+              </div>
+
+              <div class="row pt-3">
+                <div class="col-lg-10 col-md-12 col-sm-10">
+                  <div class="">
+                    <input type="email" class="rounded bg-body-secondary  border p-2 ps-3 w-100" placeholder="Email">
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-5 col-md-7 col-sm-8">
+                    <div class=" mb-5">
+                      <p class="rounded-pill btn btn-success px-5 py-2 mt-4">Update Profile </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+</section>
+<!-- section2 closed -->
+
+<!-- section3 start -->
+<section>
+  <div class="container mt-5 mb-3 pt-5">
+    <div class="mt-5 pt-5">
+      <img class="img-fluid m-auto d-block pb-5" src="images/bottonimg.png">
+    </div>
+
+    <div class="pb-5 d-flex justify-content-center fw-bold">
+      <p class="text-center">Copyright © 2022 Forage it. design and developed by JD Web services</p>
+    </div>
+  </div>
+</section>
+<!-- section3 closed -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script>
+      function profile(){
+          window.location.href= "customerprofile.html";
+        }
+        function history(){
+          window.location.href= "orderhistoryc.html";
+        }
+        function chat(){
+          window.location.href= "chatcustomer.html";
+        }
+        function chngepass(){
+          window.location.href= "customerpass.html";
+        }
+        function logout(){
+          window.location.href= "customerdata.html";
+        }
+    </script>
+  </body>
+</html>

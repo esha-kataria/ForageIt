@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+
+.bgimage{
+    background-image: url(../images/headimg.png), url(../images/headimg1.png);
+    background-size: cover;
+}
+
+.bgbodyimg{
+    background-image: url(../images/bgbodyimg.png);
+    background-size: cover;
+}
+
+.c-white{
+    color: white;
+}

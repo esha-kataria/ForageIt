@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+
+.aboutbgimage{
+    background-image: url(../images/farmimgblk.png), url(../images/farmimgbg.png);
+    background-size: cover;
+}
+
+.c-white{
+    color: white;
+}
+
+.f-size{
+    font-size: 65px;
+}
+
+hr{
+    margin: 0rem!important;
+    color: white !important;
+    opacity: 0.6 !important;
+}
+
+.padding{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.color{
+    color: #7B7B7B;
+}

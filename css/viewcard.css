@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    background-color: #f5f5f5 !important;
+}
+
+.bgimage{
+    background-image: url(../images/headimg.png), url(../images/headimg1.png);
+    background-size: cover;
+}
+
+.c-white{
+    color: #fff;
+}
+
+.farmbg{
+    background-image: url(../images/farmbgblack.png), url(../images/farmbg.png);
+    background-size: cover;
+}
+
+.p-bottom{
+    padding-bottom: 80px;
+}
+
+.bg-white{
+    background-color: #fff !important;
+}
+
+.bg-green{
+    background-color: #066507;
+}
+
+.select1 .form-check-input{
+    background-color: #066507 !important;
+}
+
+.form-check-input:checked{
+    border-color: #ffffff !important;
+}
+
+hr{
+    width: 80% !important;
+    margin: auto !important;
+    margin-top: 16px !important;
+}
+
+.height1{
+    height: 880px;
+}
+
+.border{
+    border: 2px solid #066507;
+}
+:root, [data-bs-theme=light]{
+    --bs-secondary-color:#fff !important;
+}
+
+.greenborder{
+    border: 1px solid #066507;
+}

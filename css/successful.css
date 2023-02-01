@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+}
+
+.bgimage{
+    background-image: url(../images/headimg.png), url(../images/headimg1.png);
+    background-size: cover;
+}
+
+.color{
+    color: #066507 !important;
+}

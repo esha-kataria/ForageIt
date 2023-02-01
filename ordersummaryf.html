@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/ordersummary.css">
+    <title>Order Summary</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- section1 start -->
+<section class="bgimage">
+    <div class="container bg-color">
+        <nav class="navbar navbar-expand-lg c-white">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-md-auto mb-2 mb-lg-0 ">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light ms-3" aria-current="page" href="index.html">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light ms-3" href="aboutus.html">ABOUT US</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light ms-3" href="findfarm.html">Forage NearBy</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light ms-3" href="login.html">LOGIN</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light ms-3" href="signup.html">SIGNUP</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div><hr>
+
+    <div class="container">
+        <div class="row d-flex justify-content-center fw-bold padding">
+            <div class="">
+                <h1 class="c-white text-center">MY ACCOUNT</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- section1 closed -->
+
+<!-- section2 start -->
+<section>
+    <div class="container">
+      <div class="row py-5 ">
+        <div class="col-md-4 col-lg-4 col-sm-12">
+          <div class="bg-white shadow radius">
+            <div class="row py-5 mt-3">
+              <div>
+                <div class="list-group pt-3" id="list-tab" role="tablist">
+                  <a class="list-group-item list-group-item-action pt-3 pb-3" onclick="profile()" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">
+                    <img src="images/profile.png" class="img-fluid">
+                  </a>
+                  <a class="list-group-item list-group-item-action pt-3 pb-3 active" onclick="list()" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">
+                    <img src="images/orders.png" class="img-fluid ">
+                  </a>
+                  <a class="list-group-item list-group-item-action pt-3 pb-3" onclick="chat()" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">
+                    <img src="images/chat.png" class="img-fluid ">
+                  </a>
+                  <a class="list-group-item list-group-item-action pt-3 pb-3" onclick="listing()" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">
+                    <img src="images/listingimg.png" class="img-fluid ">
+                  </a>
+                  <a class="list-group-item list-group-item-action pt-3 pb-3" onclick="logout()" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">
+                    <img src="images/logout.png" class="img-fluid ">
+                  </a>
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="col-md-8 col-lg-8 col-sm-12 pt-sm-5 pt-md-0 pt-lg-0">
+        <div class="bg-white shadow radius">
+          <div class="container">
+            <div class="row py-5 px-3 mt-3">
+                <div>
+                  <p class="h6">Order Summary</p>
+                </div>
+
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="row radius bg py-3 px-2">
+                        <div class="col-lg-5 col-md-5 col-sm-5 cl-12">
+                            <div>
+                                <p class="h4">Order Details</p>
+                                <p class="pt-3 mb-2 fw-medium">Order Id: #375</p>
+                                <p class="mb-2 fw-medium">Order on: 12-12-2022 | 01:00pm</p>
+                                <p class="mb-2 fw-medium">Payable Amount: $ 75</p>
+                                <p class="fw-medium">Order status: Pending</p>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-7 col-md-7 col-sm-7 col-12">
+                            <div class="text-start text-lg-end text-md-end text-sm-end mt-3 mt-lg-0 mt-md-0 mt-sm-0">
+                                <p class="h4">Pickup Details</p>
+                                <p class="pt-3 mb-2 fw-medium">Name: Jashndeep SIngh</p>
+                                <p class="mb-2 fw-medium">Mobile: 6546546546</p>
+                                <p class="mb-2 fw-medium">Address: Meetup or pickup loction show</p>
+                                <p class="fw-medium">Time and Date:  12-12-2022 | 01:00pm - 02:00pm</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row py-5">
+                  <div class="table-responsive">
+                  <table class="table text-center">
+                    <thead>
+                      <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Product</th>
+                        <th scope="col">Product Qty</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Total Price</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="b-bottom">
+                        <th scope="row">
+                          <div>
+                            <img src="images/lichiimg.png" class="img-fluid">
+                        </div>
+                        </th>
+                        <td class="pt-4">Lichi</td>
+                        <td class="pt-4">2</td>
+                        <td class="pt-4">$25</td>
+                        <td class="pt-4">$50</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">
+                          <div>
+                            <img src="images/lichiimg.png" class="img-fluid">
+                        </div>
+                        </th>
+                        <td class="pt-4">Lichi</td>
+                        <td class="pt-4">2</td>
+                        <td class="pt-4">$25</td>
+                        <td class="pt-4">$25</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div class="py-3">
+                  <div class="row justify-content-end text-center fw-medium pt-5 pb-0">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                        <div>
+                            <p>Total:</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+                        <div>
+                            <p>$75</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-end text-center fw-medium ">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                        <div>
+                            <p>Tax:</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+                        <div>
+                            <p>$5</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-end text-center fw-medium py-3">
+                    <div class="col-lg-3 col-md-5 col-sm-5 col-5">
+                        <div>
+                            <p>Payable Amount</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+                        <div>
+                            <p>$54.06</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+                
+                <!-- <div class="row py-5">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-6 offset-lg-2 offset-md-2 offset-sm-2 offset-0">
+                            <div>
+                                <p class="fw-bold">Product</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-4">
+                            <div class="text-center">
+                                <p class="fw-bold">Product Qty</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-4">
+                            <div class="text-center">
+                                <p class="fw-bold">Price</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-1">
+                            <div class="text-center">
+                                <p class="fw-bold">Total Price</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row pt-3 fw-medium justify-content-center align-items-center">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-9">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-7 col-sm-7 col-9">
+                                    <div>
+                                        <img src="images/lichiimg.png" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-5 col-sm-5 col-2">
+                                    <div class="pt-lg-2 pt-md-2 pt-sm-2 pt-3">
+                                        <p class=" fw-medium">Lichi</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                            <div class="text-center">
+                                <p>2</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="text-center">
+                                <p>$25</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2">
+                            <div class="text-center">
+                                <p>$50</p>
+                            </div>
+                        </div>
+                    </div><hr>
+
+                    <div class="row pt-3 fw-medium justify-content-center align-items-center">
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-7 col-sm-7">
+                                    <div>
+                                        <img src="images/lichiimg.png" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-5 col-sm-5">
+                                    <div class="pt-lg-2 pt-md-2 pt-sm-2">
+                                        <p class="fw-medium">Lichi</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="text-center">
+                                <p>1</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="text-center">
+                                <p>$25</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2">
+                            <div class="text-center">
+                                <p>$25</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-end text-center fw-medium pt-5 pb-0">
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div>
+                                <p>Total:</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2">
+                            <div>
+                                <p>$75</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-end text-center fw-medium ">
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div>
+                                <p>Tax:</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2">
+                            <div>
+                                <p>$5</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-end text-center fw-medium py-3">
+                        <div class="col-lg-3 col-md-5 col-sm-5">
+                            <div>
+                                <p>Payable Amount</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2">
+                            <div>
+                                <p>$54.06</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+</section>
+<!-- section2 closed -->
+
+<!-- section3 start -->
+<section>
+  <div class="container mt-5 mb-3 pt-5">
+    <div class="mt-5 pt-5">
+      <img class="img-fluid m-auto d-block pb-5" src="images/bottonimg.png">
+    </div>
+
+    <div class="pb-5 d-flex justify-content-center fw-bold">
+      <p class="text-center">Copyright © 2022 Forage it. design and developed by JD Web services</p>
+    </div>
+  </div>
+</section>
+<!-- section3 closed -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script>
+      function profile(){
+          window.location.href= "farmerprofile.html";
+        }
+        function list(){
+          window.location.href= "orderlistfarmer.html";
+        }
+        function chat(){
+          window.location.href= "farmerchat.html";
+        }
+        function chngepass(){
+          window.location.href= "farmerpass.html";
+        }
+        function logout(){
+          window.location.href= "farmerdata.html";
+        }
+    </script>
+  </body>
+</html>

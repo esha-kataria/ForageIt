@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+}
+
+.bg-light{
+    background-color: #f5f5f5;
+}
+
+.bgimage{
+    background-image: url(../images/headerimg.png), url(../images/headerimg1.png);
+    background-size: cover;
+}
+
+.c-white{
+    color: white;
+}
+
+hr{
+    margin: 0rem!important;
+    color: white !important;
+    opacity: 0.6 !important;
+}
+
+.p-top{
+    padding-top: 250px;
+}
+
+.p-bottom{
+    padding-bottom: 200px;
+}
+
+.p1-bottom{
+    padding-bottom: 60px;
+}
+
+.c1{
+    color: #635729;
+}
+
+.c2{
+    color: #FF6262;
+}
+
+.c3{
+    color: #FFBB4C;
+}
+
+.form-control{
+    width: 100% !important;
+}
+
+.index{
+    z-index: -1;
+}
+
+.bgbodyimage{
+    background-image:url(../images/headerimg.png), url(../images/bggreen.png);
+    background-size: cover;
+    background-color: lime;
+}
+
+/* about us */
+
+.aboutbgimage{
+    background-image: url(../images/farmimgblk.png), url(../images/farmimgbg.png);
+    background-size: cover;
+}
+
+.padding{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.color{
+    color: #7B7B7B;
+}
+
+.f-size{
+    font-size: 65px;
+}
+
+/* findfarm */
+
+.farmbg{
+    background-image: url(../images/headimg.png), url(../images/headimg1.png);
+    background-size: cover;
+}
+
+.findbgbodyimg{
+    background-image: url(../images/bgbodyimg.png);
+    background-size: cover;
+}
+
+/* farm */
+
+.form-check-input{
+    background-color: #f5f5f5 !important;
+}
+
+.form-check-input:checked{
+    background-color:#0d6efd !important;
+}
+
+.top-50{
+    position: absolute;
+    top: 50% !important;
+}
+
+:root, [data-bs-theme=light]{
+    --bs-border-radius-pill: 4rem !important;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.listli ul {
+    padding: 0;
+}
+.listli ul li {
+    margin-right: 10px;
+    display: inline;
+    padding-right: 15px;;
+}
+
+.resultli ul li{
+    margin-right: 10px;
+    display: inline;
+    padding-right: 15px;
+}
+
+/* farm listing */
+
+.farmbodybg{
+    background-image: url(../images/farmbgblack.png), url(../images/farmbg.png);
+    background-size: cover;
+}
+
+.p-bottom{
+    padding-bottom: 80px;
+}
+
+button, input, optgroup, select, textarea{
+    line-height: 90% !important;
+}
+
+:root, [data-bs-theme=light]{
+    --bs-secondary-color:#fff !important;
+}
+
+.btn-close {
+    --bs-btn-close-opacity:1.5;
+}
+
+/* view cart */
+
+.bg-green{
+    background-color: #066507;
+}
+
+.bg-white{
+    background-color: #fff !important;
+}
+
+.select1 .form-check-input{
+    background-color: #066507 !important;
+}
+
+.select1 .form-check-input:checked{
+    border-color: #ffffff !important;
+}
