@@ -2,10 +2,6 @@ body{
     margin: 0;
 }
 
-.bg-light{
-    background-color: #f5f5f5;
-}
-
 .bgimage{
     background-image: url(../images/headerimg.png), url(../images/headerimg1.png);
     background-size: cover;
@@ -140,16 +136,20 @@ hr{
     padding-bottom: 80px;
 }
 
-button, input, optgroup, select, textarea{
+/* button, input, optgroup, select, textarea{
     line-height: 90% !important;
-}
+} */
 
-:root, [data-bs-theme=light]{
+.listing1 :root, [data-bs-theme=light]{
     --bs-secondary-color:#fff !important;
 }
 
 .btn-close {
     --bs-btn-close-opacity:1.5;
+}
+
+.arrow .breadcrumb-item::before{
+    color: #fff !important;
 }
 
 /* view cart */
@@ -168,4 +168,112 @@ button, input, optgroup, select, textarea{
 
 .select1 .form-check-input:checked{
     border-color: #ffffff !important;
+}
+
+.greenborder{
+    border: 1px solid #066507;
+}
+
+.height1{
+    height: 850px;
+}
+
+.view-bottom{
+    margin: auto !important;
+    border-bottom: 1px solid #e9e9e9 !important;
+}
+
+/* checkout */
+
+.black-bottom{
+    border-bottom: 1px solid #222 !important;
+}
+
+.checkout-bottom{
+    border-bottom: 1px solid #e9e9e9 !important;
+    margin: 0 !important;
+    opacity: inherit !important;
+}
+
+.border{
+    border: 2px solid #F8F9F9 !important;
+}
+
+.check .p-bottom{
+    padding-bottom: 80px;
+}
+
+.m-top{
+    margin-top: 130px;
+}
+
+/* login */
+
+.radius .radius-50{
+    border-radius: 50px;
+}
+
+/* customer data */
+
+.bgimage1{
+    background-image: url(../images/farmimgblk.png), url(../images/farmimgbg.png);
+    background-size: cover;
+}
+
+.radius-30{
+    border-radius: 30px;
+}
+
+.list-group{
+    --bs-list-group-active-bg:#f5f5f5 !important;
+    --bs-list-group-active-color:black !important;
+    --bs-list-group-active-border-color: #f5f5f5 !important;
+}
+
+.padding{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+:root, [data-bs-theme=light]{
+    --bs-border-color:#fff !important;
+    --bs-border-radius:0rem !important;
+}
+
+.border1{
+    border: 1px solid #000000;
+    border-radius: 30px;
+}
+
+.b-bottom{
+    border-bottom: 1px solid #000000;
+}
+
+.bg{
+    background-color: #F8F9F9 !important;
+}
+
+.chatborder{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.textborder{
+    border: 1px solid #C6C6C6 !important;
+}
+
+.bottom-grey{
+    border-bottom: 1px solid #ccc6c6 !important;
+    margin: 0 !important;
+}
+
+.greenclr{
+    background-color: #066507 !important;
+    color: #fff !important;
+}
+
+/* farmer data */
+
+.profile .form-check-input{
+    background-color: #D4D4D4 !important;
 }
